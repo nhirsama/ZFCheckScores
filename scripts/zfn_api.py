@@ -1458,7 +1458,7 @@ if __name__ == "__main__":
     test_term = 2  # 查询学期（1-上|2-下）
 
     # 初始化
-    lgn = Client(lgn_cookies if lgn_cookies is not None else {}, base_url=base_url)
+    lgn = Client(lgn_cookies if lgn_cookies is not None else {}, base_url=base_url, timeout=10)
     # 判断是否需要使用cookies登录
     if lgn_cookies is None:
         # 登录
