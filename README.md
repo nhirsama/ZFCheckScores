@@ -1,6 +1,6 @@
 # 正方教务管理系统成绩推送
 
-<img src="https://raw.githubusercontent.com/NianBroken/ZFCheckScores/main/img/7.jpg" style="zoom:60%;" />
+<img src="https://raw.githubusercontent.com/xwy231321/ZFCheckScores/main/img/7.jpg" style="zoom:60%;" />
 
 ## 简介
 
@@ -18,7 +18,7 @@
 
 如果你的教务系统页面与下图所示的页面**完全一致**或**几乎一致**，则代表你可以使用本项目。
 
-<img src="https://raw.githubusercontent.com/NianBroken/ZFCheckScores/main/img/9.png" style="zoom:60%;" />
+<img src="https://raw.githubusercontent.com/xwy231321/ZFCheckScores/main/img/9.png" style="zoom:60%;" />
 
 ## 目前支持的功能
 
@@ -38,7 +38,7 @@
 
 ## 使用方法
 
-### 1. [Fork](https://github.com/NianBroken/ZFCheckScores/fork "Fork") 本仓库
+### 1. [Fork](https://github.com/xwy231321/ZFCheckScores/fork "Fork") 本仓库
 
 `Fork` → `Create fork`
 
@@ -54,10 +54,10 @@
 
 | Name     | 例子                        | 说明                                                                      |
 | -------- | --------------------------- | ------------------------------------------------------------------------- |
-| URL      | https://www.nianbroken.top/ | 教务系统地址                                                              |
-| USERNAME | 2971802058                  | 教务系统用户名                                                            |
-| PASSWORD | Y3xhaCkb5PZ4                | 教务系统密码                                                              |
-| TOKEN    | J65KWMBfyDh3YPLpcvm8        | [Showdoc 的 token](https://push.showdoc.com.cn/#/push "Showdoc 的 token") |
+| URL      | https://jwglxxfwpt.hebeu.edu.cn/ | 教务系统地址                                                              |
+| USERNAME | 学号                  | 教务系统用户名                                                            |
+| PASSWORD | 对应的密码                | 教务系统密码                                                              |
+| TOKEN    | "server/api/push/"后面的内容        | [Showdoc 的 token](https://push.showdoc.com.cn/#/push "Showdoc 的 token") |
 
 ### 4. 开启 Actions
 
@@ -93,9 +93,7 @@ _若是第一次运行程序，上述步骤会执行两遍_
 
 [openschoolcn/zfn_api](https://github.com/openschoolcn/zfn_api "openschoolcn/zfn_api")
 
-## 最便宜的 VPN
-
-[https://nianbroken.github.io/Great-Firewall/](https://nianbroken.github.io/Great-Firewall/ "https://nianbroken.github.io/Great-Firewall/")
+[https://github.com/NianBroken/ZFCheckScores/](https://github.com/NianBroken/ZFCheckScores/)
 
 ## 其他
 
