@@ -89,6 +89,7 @@ sudo docker build -t zfcheckscores .
 ```bash
 sudo docker run -it -e URL=https://jwglxxfwpt.hebeu.edu.cn/ -e USERNAME=<你的学号> -e PASSWORD=<你的密码> -e TOKEN=<你的token> zfcheckscores
 ```
+注：docker容器中环境变量信息使用明文存储，因此请确保服务器信息安全！
 ## 程序逻辑
 
 1. 清空文件 B 中的内容
