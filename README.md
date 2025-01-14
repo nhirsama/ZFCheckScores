@@ -83,6 +83,9 @@ git clone https://github.com/nhirsama/ZFCheckScores
 输入下列指令以创建名为`zfcheckscores`的容器。  
 
 ```bash
+cd ZFCheckScores
+```
+```bash
 sudo docker build -t zfcheckscores .
 ```
 ### 3. 运行容器并设置环境变量
