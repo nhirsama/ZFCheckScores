@@ -1,3 +1,4 @@
 DateTime~=5.2
-requests~=2.31.0
+requests~=2.32.0
 pyquery~=2.0.0
+rea~=0.0.1
