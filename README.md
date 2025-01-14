@@ -1,4 +1,4 @@
-# 正方教务管理系统成绩推送
+# 正方教务管理系统成绩推送——河工程适配分支
 
 <img src="https://raw.githubusercontent.com/xwy231321/ZFCheckScores/main/img/7.jpg" style="zoom:60%;" />
 
