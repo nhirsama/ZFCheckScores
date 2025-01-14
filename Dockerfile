@@ -13,4 +13,4 @@ COPY . /app
 RUN pip install -r requirements.txt
 
 # 运行应用程序
-CMD python3 main.py
+CMD python3 run.py
