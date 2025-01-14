@@ -35,14 +35,14 @@ def get_user_info(student_client, output_type="none"):
             )
 
             # 调用get_grade方法获取学生成绩信息
-            grade = get_grade(student_client, output_type="grade",timeout=10)
+            grade = get_grade(student_client, output_type="grade")
 
             # 如果成功获取到成绩信息
             if grade:
                 # 获取当前GPA
-                gpa = get_grade(student_client, output_type="gpa",timeout=20)
+                gpa = get_grade(student_client, output_type="gpa")
                 # 获取当前百分制GPA
-                percentage_gpa = get_grade(student_client, output_type="percentage_gpa",timeout=20)
+                percentage_gpa = get_grade(student_client, output_type="percentage_gpa")
                 # 整合GPA信息为字符串格式
                 gpa_info = f"\n当前GPA：{gpa}\n" f"当前百分制GPA：{percentage_gpa}"
                 # 将个人信息和GPA信息整合为完整字符串
