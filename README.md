@@ -88,7 +88,7 @@ sudo docker build -t zfcheckscores .
 ### 3. 运行容器并设置环境变量
 输入下列指令，并应将'<>'所引的内容改为正确内容 [^2]
 ```bash
-sudo docker run -it -e URL=https://jwglxxfwpt.hebeu.edu.cn/ -e USERNAME=<你的学号> -e PASSWORD=<你的密码> -e TOKEN=<你的token> zfcheckscores
+sudo docker run -dit -e URL=https://jwglxxfwpt.hebeu.edu.cn/ -e USERNAME=<你的学号> -e PASSWORD=<你的密码> -e TOKEN=<你的token> zfcheckscores
 ```
 [^ 1 ] `sudo`命令用于在Ubuntu等Linux发行版中使用管理员权限运行命令，管理员账户则不需要此命令。  
 [^ 2 ] docker容器中环境变量信息使用明文存储，因此请确保服务器信息安全！
