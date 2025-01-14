@@ -36,7 +36,7 @@
    6. 对于没有分数仅有级别的成绩，例如”及格、良好、优秀“，可以强制显示数字分数。
    7. 显示未公布成绩的课程，即已选课但尚未出成绩的课程。
 
-## 使用方法
+## 使用方法一：GitHub Actions
 
 ### 1. [Fork](https://github.com/xwy231321/ZFCheckScores/fork "Fork") 本仓库
 
@@ -71,6 +71,24 @@ _若你的程序正常运行且未报错，那么在此之后，程序将会每�
 
 _若你看不懂上述使用方法，你可以查看[详细使用方法](https://nianbroken.github.io/ZFCheckScores/ "详细使用方法")_
 
+## 使用方法二：Docker容器
+
+### 1. 启动容器
+
+在控制台中输入下列指令克隆该项目
+```bash
+git clone https://github.com/nhirsama/ZFCheckScores
+```
+
+输入下列指令以创建名为`zfcheckscores`的容器
+
+```bash
+sudo docker build -t zfcheckscores .
+```
+输入下列指令，并应将'<>'所引的内容改为正确内容
+```bash
+sudo docker run -it -e URL=https://jwglxxfwpt.hebeu.edu.cn/ -e USERNAME=<你的学号> -e PASSWORD=<你的密码> -e TOKEN=<你的token> zfcheckscores
+```
 ## 程序逻辑
 
 1. 清空文件 B 中的内容
