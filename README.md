@@ -1,4 +1,4 @@
-# 正方教务管理系统成绩推送——河工程适配分支
+# 正方教务管理系统成绩推送
 
 <img src="https://raw.githubusercontent.com/xwy231321/ZFCheckScores/main/img/7.jpg" style="zoom:60%;" />
 
@@ -52,12 +52,12 @@
 
 > Name = Name，Secret = 例子
 
-| Name     | 例子                        | 说明                                                                      |
-| -------- | --------------------------- | ------------------------------------------------------------------------- |
-| URL      | https://jwglxxfwpt.hebeu.edu.cn/ | 教务系统地址                                                              |
-| USERNAME | 学号                  | 教务系统用户名                                                            |
-| PASSWORD | 对应的密码                | 教务系统密码                                                              |
-| TOKEN    | "server/api/push/"后面的内容        | [Showdoc 的 token](https://push.showdoc.com.cn/#/push "Showdoc 的 token") |
+| Name     | 例子                      | 说明                                                                      |
+|----------|-------------------------|-------------------------------------------------------------------------|
+| URL      | 对应的教务管理系统url            | 教务系统地址                                                                  |
+| USERNAME | 学号                      | 教务系统用户名                                                                 |
+| PASSWORD | 对应的密码                   | 教务系统密码                                                                  |
+| TOKEN    | "server/api/push/"后面的内容 | [Showdoc 的 token](https://push.showdoc.com.cn/#/push "Showdoc 的 token") |
 
 ### 4. 开启 Actions
 
@@ -91,7 +91,7 @@ sudo docker build -t zfcheckscores .
 ### 3. 运行容器并设置环境变量
 输入下列指令，并应将'<>'所引的内容改为正确内容。  
 ```bash
-sudo docker run -dit -e URL=https://jwglxxfwpt.hebeu.edu.cn/ -e USERNAME=<你的学号> -e PASSWORD=<你的密码> -e TOKEN=<你的token> zfcheckscores
+sudo docker run -dit -e URL=<你所在大学的教务url> -e USERNAME=<你的学号> -e PASSWORD=<你的密码> -e TOKEN=<你的token> zfcheckscores
 ```
 注1： `sudo`命令用于在Ubuntu等Linux发行版中使用管理员权限运行命令，管理员账户则不需要此命令。  
 
